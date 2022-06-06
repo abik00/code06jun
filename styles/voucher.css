@@ -1,0 +1,33 @@
+body{
+    margin: 60px;
+  }
+  #navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center  ;
+    background-color: orange;
+
+  }
+  a{
+    margin-top: 15px;
+  }
+  #voucher_list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    text-align: center;
+    margin-top: 2%;
+  }
+  #voucher_list>div>img{
+    height: 300px;
+    margin-top: 10px;
+  }
+  #voucher_list>div{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 10%;
+    width: 1fr;
+    line-height: 5px;
+  }
+  #voucher_list>div>button{
+    margin-bottom: 15px;
+  }

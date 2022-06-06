@@ -1,0 +1,15 @@
+#navbar{
+    display: flex;
+    width: 80%;
+    height: 50px;
+    color: #000;
+    background-color: orange;
+    margin: auto;
+    text-align: center;
+    justify-content: space-between;
+    padding: 5px;
+    
+}
+a{
+    margin-top: 15px;
+}

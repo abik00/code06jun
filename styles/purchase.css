@@ -1,0 +1,13 @@
+body{
+    margin: 60px;
+  }
+  #navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center  ;
+    background-color: orange;
+
+  }
+  a{
+    margin-top: 15px;
+  }
